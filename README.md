@@ -262,12 +262,6 @@ Models are configurable too. Run [`setup-kstack`](./skills/setup-kstack/SKILL.md
 
 When a default changes, a block written before the change still pins the old value until you run `/skill:setup-kstack` again. That run replaces the old defaults it recognizes and keeps any other role whose model differs from the default. To drop a pin it does not recognize, delete that role's line or the block first.
 
-## automations
-
-kstack also ships a dormant [benny automation pack](./automations/benny/). Benny triages slack issue reports, then reproduces and fixes confirmed bugs with real ui evidence. Its files are not registered as skills.
-
-To set it up, point pi at [`FOR_AGENTS.md`](./automations/benny/FOR_AGENTS.md). Setup copies the pack into the target repository at `.pi/automations/benny/`, enables kstack there for shared skills, and keeps user configuration outside the copied pack. Benny runs headless with `pi -p`, so a cron job or a CI workflow can start it.
-
 ## license
 
 MIT. Copyright (c) 2026 Kate Song.
