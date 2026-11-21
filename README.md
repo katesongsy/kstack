@@ -21,7 +21,7 @@ kstack is a pi package. Install it from git, npm, or a local checkout:
 
 ```bash
 pi install git:github.com/katesongsy/kstack
-pi install pi-kstack        # npm
+pi install npm:pi-kstack    # npm
 pi install ./kstack          # a local checkout
 pi -e ./kstack               # try it for one run, without adding it
 ```
