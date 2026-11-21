@@ -1,0 +1,30 @@
+{
+  "name": "kstack",
+  "version": "1.0.0",
+  "description": "A rigorous engineering stack for the pi coding agent: k-mode, playbooks, principles, and verification skills.",
+  "license": "MIT",
+  "author": "Kate Song",
+  "keywords": [
+    "pi-package",
+    "skills",
+    "kstack",
+    "agent-skills"
+  ],
+  "pi": {
+    "skills": [
+      "./skills"
+    ],
+    "prompts": [
+      "./prompts/*.md"
+    ],
+    "subagents": {
+      "agents": [
+        "./agents"
+      ]
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<you>/kstack.git"
+  }
+}
