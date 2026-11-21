@@ -1,5 +1,5 @@
 {
-  "name": "@katesongsy/kstack",
+  "name": "pi-kstack",
   "version": "1.0.0",
   "description": "A rigorous engineering stack for the pi coding agent: k-mode, playbooks, principles, and verification skills.",
   "license": "MIT",
@@ -28,7 +28,8 @@
     "url": "git+https://github.com/katesongsy/kstack.git"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "files": [
     "skills",
